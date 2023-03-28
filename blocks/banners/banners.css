@@ -1,0 +1,12 @@
+.banners-banner-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.banners-main > div{
+  position: relative;
+  text-align: center;
+}
