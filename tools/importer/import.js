@@ -91,7 +91,8 @@
 
 export default {
   transformDOM: ({ document }) => {
-    const Container = document.querySelector('.module_items-container');
+    const Container = document.querySelector('.module_container.module_container--content');
+    // Add tag and class need to remove
     // main
     //   .querySelector("header, footer, .disclaimer")
     //   .forEach((el) => el.remove());
