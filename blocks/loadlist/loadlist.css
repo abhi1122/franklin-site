@@ -1,5 +1,8 @@
 .pagination {
     display: inline-block;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   
   .pagination a {
@@ -10,8 +13,26 @@
   }
   
   .pagination a.active {
-    background-color: #4CAF50;
+    background-color: darkgrey;
     color: white;
   }
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .loadlist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .loadlist ul {
+    background: #39f;
+    padding: 20px;
+  }
+
+  .loadlist ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+    padding: 5px;
+  }

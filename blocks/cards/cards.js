@@ -2,7 +2,6 @@ import { createOptimizedPicture, fetchPlaceholders, getMetadata } from '../../sc
 
 export default async function decorate(block) {
   const placeholder = await fetchPlaceholders();
-  const metadata = await getMetadata();
 
   /* change to ul, li */
   const ul = document.createElement('ul');
