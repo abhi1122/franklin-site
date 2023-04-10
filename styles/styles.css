@@ -243,6 +243,11 @@ main .section.highlight {
 }
 
 /* section metadata2 */
-main .section.highlight-lightgray {
+main .section.highlight-lightblue {
   background-color: lightgray;
+}
+
+/* section metadata3 */
+main .section.highlight-lightblue {
+  background-color: lightblue;
 }
