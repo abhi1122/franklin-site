@@ -1,7 +1,7 @@
 version: 1
 
 indices:
-  allpages:
+  default:
     include:
       - /**
     target: /query-index
